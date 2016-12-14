@@ -1,0 +1,115 @@
+#splash{
+  background: white;
+  position: absolute;
+  top: 10;
+  left: 10;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  text-align: center;
+
+ span{
+    cursor: pointer;
+
+  }
+
+.prez{
+  height : 100%;
+}
+}
+
+.ok{
+  // position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+ body{
+  // margin-top: 18%;/
+}
+.fadeout{
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s linear;
+}
+.carousel {
+  background-color: white;
+  border-bottom: 10px solid black;
+  height : 50%;
+}
+.slideimage{
+  width:90%;
+  height:90%;
+}
+
+.slick-dots{
+  bottom:73px;
+}
+
+.slick-dotted.slick-slider{
+  margin-bottom: 0;
+}
+
+.test{
+  position:relative;
+  height: 500%;
+}
+.fadein{
+  visibility: visible;
+  opacity: 1;
+  transition: all .3s linear;
+}
+
+.isplaying{
+  background-color: cyan;
+}
+.img{
+  width: 20px;
+  height: 20px;
+}
+#servers{
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      background-color: white;
+      list-style-type: none;
+
+
+    }
+  }
+}
+
+#renderers{
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      background-color: white;
+      list-style-type: none;
+      img{
+        max-width: 100px;
+      }
+    }
+  }
+}
+
+
+.player-haut .slideimage,
+.server-haut .slideimage {
+    width:30%;
+    height:30%;
+    margin: 0 auto;
+}
+
+.player-haut .slick-dots,
+.server-haut .slick-dots {
+  bottom: 10px;
+}
+
+.testmenu{
+  width:100%;
+  height:100%;
+  margin-top: 50px;
+}
